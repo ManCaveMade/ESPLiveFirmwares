@@ -1,0 +1,25 @@
+{
+    "name": "EmonLiteESP",
+    "keywords": "emon,current,power,monitor",
+    "description": "Current measure library for ESP8266 based board",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/xoseperez/emonliteesp.git"
+    },
+    "version": "0.2.0",
+    "license": "GPL-3.0",
+    "exclude": "tests",
+    "frameworks": "arduino",
+    "platforms": "espressif8266",
+    "dependencies": [
+    ],
+    "authors": {
+        "name": "Xose Perez",
+        "email": "xose.perez@gmail.com",
+        "url": "http://tinkerman.cat",
+        "maintainer": true
+    },
+    "examples": [
+        "examples/*/*.ino"
+    ]
+}
